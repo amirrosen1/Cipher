@@ -1,0 +1,54 @@
+# Cipher Encryption System
+
+## Overview
+
+This project implements a simple yet effective cipher encryption system in C, designed to encode and decode messages securely. It includes thorough unit tests to verify the functionality and reliability of the encryption and decryption processes.
+
+## Project Structure
+
+- **main.c**: Contains the main function to execute the cipher operations.
+- **cipher.c**: Implements the cipher algorithms for encryption and decryption.
+- **cipher.h**: Header file for cipher.c, defining the functions and their prototypes.
+- **tests.c**: Provides unit tests to ensure the cipher algorithms work correctly.
+- **tests.h**: Header file for tests.c, defining test functions.
+- **CMakeLists.txt**: Configuration file for building the project using CMake.
+
+## Features
+
+- **Encryption**: Encode messages to ensure secure communication.
+- **Decryption**: Decode messages to retrieve original content.
+- **Unit Testing**: Comprehensive tests to validate cipher functionality.
+
+## Getting Started
+
+### Prerequisites
+
+- CMake 3.16 or later
+- C compiler supporting C11 standard
+
+### Build and Run
+
+1. **Clone the Repository**:
+    ```bash
+    git clone <repository-url>
+    cd <repository-directory>
+    ```
+
+2. **Build the Project**:
+    ```bash
+    mkdir build
+    cd build
+    cmake ..
+    make
+    ```
+
+3. **Run the Application**:
+    ```bash
+    ./ex1_amir_rosen15
+    ```
+
+### Running Tests
+
+To run the unit tests, execute the following command in the build directory:
+```bash
+./tests
